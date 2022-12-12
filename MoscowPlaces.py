@@ -80,6 +80,7 @@ def create_places() -> pd.DataFrame:
         },
         ignore_index=True
     )
+    return places
 
 
 def main():
